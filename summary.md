@@ -78,3 +78,21 @@ export default function Test(props: any) {
 
 A propriedade children e utilizada para pegarmos tudo que está sendo recebida e utilizar aonde estiver chamando a propriedade.
 
+### Componente usando eventos
+Para usarmos um componente com evento e relativamente bem simples, basta apenas passar qual o evento que você quer que acione, por exemplo on click e fazer uma chamada de função por exemplo:
+```tsx
+export default function Event() {
+  let count = 0
+
+  function increment() {
+    console.log(count++)
+  }
+
+  return (
+    <button onClick={increment}>
+      Clique aqui
+    </button>
+  )
+}
+```
+Nesse caso em especifico todo vez que o botão sofrer a ação de um click irá rodar a função 
