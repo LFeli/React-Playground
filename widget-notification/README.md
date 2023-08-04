@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Widget de notificação 🚀
 
-## Getting Started
+Um overview geral desse projeto e um widget de notificação utilizando React, Next.js, TailwindCSS e Typescript. Além disso houve a utilização de um patter de composição para a padronização dos componentes, que no caso desse projeto foi o widget em si.
 
-First, run the development server:
+## O que Eu Aprendi 🤔
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Obtive alguns conhecimentos bem interessantes nesse projeto, primeiro consegui aprofundar mais meu conhecimento nas tecnologias citadas no geral, além de compreender o funcionamento dos temas light e dark usando o tailwind, que muda conforme seu SO ou seu navegador.
+Além disso foi abordado em um dos vídeos o patter de composição que abriu a minha mente para muitas ideias além de trazer flexibilidade para os componentes além de facilitar a manutenção em uma determinada parte do componente. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Dificuldades Enfrentadas 😶‍🌫️
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Mesmo fazendo um projeto acompanhando o vídeo, em alguns momentos me senti não tão produtivo pois em alguns momentos eu errava o nome de alguma propriedade ou maneira de escrever determinado código, entretanto eu reconheço que mesmo que essas linguagem se reaproveitem muito da base como o HTML, CSS e o JS que isso e a curva de aprendizagem pois estou saindo das linguagens que eu já entendo como boa parte das coisas funcionam e explorando algo novo. Porém sinto que meu entendimento sobre essas linguagens está ficando melhor e mais fácil.  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Créditos 📽️
+Quem fez esse projeto e foi o [Diego Fernandes](https://github.com/diego3g) que é o CTO da [Rocketseat](https://www.rocketseat.com.br/).
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Link dos vídeos:**  
+- [Video da construção do widget em si](https://www.youtube.com/watch?v=4qpgwR6JZPY)
+- [Video do Pattern de composição](https://www.youtube.com/watch?v=oPOKpSFqy-I&t=8s)
