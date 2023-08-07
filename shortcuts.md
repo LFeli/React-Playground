@@ -20,7 +20,7 @@ E selecionar as configurações que deseja.
 
 Caso queira adicionar o tailwindcss utilizando o vite, vai precisar instalar alguns pacotes antes.
 ```
-$ npm i -D tailwindcss postcss autoprefixer
+npm i -D tailwindcss postcss autoprefixer
 ```
 
 No caso nesse comando estamos instalando o:
