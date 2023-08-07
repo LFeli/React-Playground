@@ -1,4 +1,4 @@
-# Criação de um projeto ReactJS c/ Next.js
+# Criação de um projeto Next.js
 
 Para iniciar um projeto react com Next você pode utilizar o seguinte comando:
 ```
@@ -11,6 +11,34 @@ Ele vai gerar toda a base do projeto e adicionar alguns pacotes como Eslint, Pre
 
 No caso eu uso o da [Rocketseat](https://github.com/Rocketseat/eslint-config-rocketseat)
 
+# Criação de um projeto Vite
+Para iniciar um projeto react com Next você pode utilizar o seguinte comando:
+```
+npm create vite@latest
+```
+E selecionar as configurações que deseja.
+
+Caso queira adicionar o tailwindcss utilizando o vite, vai precisar instalar alguns pacotes antes.
+```
+$ npm i -D tailwindcss postcss autoprefixer
+```
+
+No caso nesse comando estamos instalando o:
+- TailwindCSS
+- PostCSS
+- Autoprefixer
+
+Após isso e necessário rodar o comando para criar o arquivo do tailwind
+```
+npx tailwindcss init -p
+```
+
+E dentro do arquivo `tailwind.config.js`, deveremos colocar aonde vai ficar os arquivos e os formatos. Além de colocar no arquivo css as chamadas dos pacotes do tailwind
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 ## Config do Eslint da Rocketseat
 Primeira coisa que devemos fazer e baixar as dependências do eslint da rocket, pode usar o comando abaixo para fazer isso.
 
@@ -18,7 +46,7 @@ Primeira coisa que devemos fazer e baixar as dependências do eslint da rocket, 
 npm i -D eslint @rocketseat/eslint-config
 ```
 
-Após instalar as dependências e necessário criar um arquivo chamado `.eslintrc. ` e inserir o código abaixo:
+Após instalar as dependências e necessário criar um arquivo chamado `.eslintrc.json` e inserir o código abaixo:
 ``` js
 {
   "extends": [
