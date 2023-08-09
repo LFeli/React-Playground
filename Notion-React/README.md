@@ -1,27 +1,23 @@
-# React + TypeScript + Vite
+# Recriando a Experiência de Edição do Notion 📝
+O objetivo principal deste projeto é `'recriar'` a experiência de edição oferecida pelo Notion e criar uma interface que remete a essa conhecida ferramenta. O Notion, ao longo do tempo, estabeleceu-se como uma das principais ferramentas de organização, proporcionando uma das melhores experiências de uso.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Foi utilizado neste projeto as tecnologias:
+- React 
+- TailwindCSS
+- Typescript
+- Vite
 
-Currently, two official plugins are available:
+E utilizando para o editor em si: 
+- Tiptap 
+- Plugins do Tiptap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Desafios e Aprendizados 🚀
+Durante a live, surgiram várias dúvidas, especialmente em relação ao editor em si. No entanto, quando a escolha do Tiptap foi apresentada e sua implementação utilizando o React foi demonstrada, minha curiosidade por essa suite aumentou muito. Fiquei impressionado com o potencial poderoso que ela oferece. Além disso, a experiência também agregou meu conhecimento nas tecnologias envolvidas, com destaque para o Tailwind. Aprendi como utilizar os plugins oficiais do Tailwind, o que se mostrou extremamente vantajoso para aumentar a produtividade no desenvolvimento de aplicações utilizando ele.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Créditos 📽️
+Esse projeto foi feito durante uma live feito pelo [Diego Fernandes](https://github.com/diego3g) que é o CTO da [Rocketseat](https://www.rocketseat.com.br/).
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**Link da live:**  
+- [LIVE - Recriando o Notion com React (editor funcionando!)](https://www.youtube.com/watch?v=-SDxID3BS4I)
