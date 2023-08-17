@@ -1,27 +1,14 @@
-# React + TypeScript + Vite
+# Formulários avançados no React
+projeto focando em aprender e explorar as abordagens mais avançadas usando formulários no React, projeto foi criado usando React, Typescript e TaildwindCSS, além das bibliotecas React Hook Form, Hookforms/resolver, Zod e o SupaBase como storage para simplificar o aprendizado.
+## Aprendizados em Diversos Fronts 🧠
+Nesse projeto além de conhecer vários bibliotecas interessantes como o próprio React Hook Form tambmém utilizamos o Zod Para fazer algumas validações e transformações de dados, além de aprender conceitos como Field Arrays e como fazer upload de arquivos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Conclusão 🎉
+Para mim esse projeto sanou boa parte das minhas duvidas sobre os formulários no react, como validação, tratamento de dados (vulgo transformação), parte de mensagem de erro que fazer na mão da um certo trabalho, além de vários outros conceitos que eu so apenas tinha ouvido falar.
 
-Currently, two official plugins are available:
+## Créditos 📽️
+Esse projeto foi feito durante uma live feito pelo [Diego Fernandes](https://github.com/diego3g) que é o CTO da [Rocketseat](https://www.rocketseat.com.br/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Link da live:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [Formulários avançados no React (Hook Form + Zod)](https://www.youtube.com/watch?v=XSbMSSdGSdg)
